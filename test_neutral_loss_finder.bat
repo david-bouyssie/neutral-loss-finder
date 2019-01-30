@@ -1,0 +1,1 @@
+neutral_loss_finder.pl --file_path="./test/OVAJS101023_02.raw.mgf" --loss_mass=162 --moz_tol=20 --moz_tol_unit=ppm --max_nb_losses=3 --max_highest_peaks=5 --min_rel_intensity=0.5 --verbose

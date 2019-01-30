@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmlIndexMaker>
+  <elementToIndex path="/mzXML/msRun" /> 
+  <elementToIndex path="/mzXML/msRun/parentFile" />
+  <elementToIndex path="/mzXML/msRun/msInstrument" />
+  <elementToIndex path="/mzXML/msRun/dataProcessing" /> 
+  <elementToIndex path="/mzXML/msRun/scan">
+    <key type="attribute" name="num"/>
+    <key type="attribute" name="msLevel"/>
+    <key type="attribute" name="scanType"/>
+    <key type="attribute" name="retentionTime"/>
+    <key type="attribute" name="basePeakMz"/>
+    <key type="attribute" name="basePeakIntensity"/>
+    <key type="attribute" name="totIonCurrent"/>
+    <key type="attribute" name="peaksCount"/>
+  </elementToIndex>  
+  <elementToIndex path="/mzXML/msRun/scan/scan">
+    <key type="attribute" name="num"/>
+    <key type="attribute" name="msLevel"/>
+    <key type="attribute" name="scanType"/>
+    <key type="attribute" name="retentionTime"/>
+    <key type="attribute" name="basePeakMz"/>
+    <key type="attribute" name="basePeakIntensity"/>
+    <key type="attribute" name="totIonCurrent"/>
+    <key type="attribute" name="peaksCount"/>
+  </elementToIndex>  
+</xmlIndexMaker>
