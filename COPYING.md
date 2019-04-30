@@ -1,5 +1,5 @@
 Copyright IPBS/CNRS 2018 - 2019
-masstools.ipbs.fr
+https://masstools.ipbs.fr
 
 This program is free software distributed under the terms of two licenses, the
 CeCILL license that fits European law, and the GNU Lesser General Public
